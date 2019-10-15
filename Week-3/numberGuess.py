@@ -11,4 +11,4 @@ num = r.randint(1,10)
 if guess == num:
     print('Nice you got it right')
 else:
-    print('You failed')
+    print('You failed lol')
