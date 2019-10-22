@@ -31,7 +31,7 @@ def sum(a, b):
 # using inc_return
 def sum_inc(a, b):
     return a + b
-    inc_return()
+    inc_return(a + b)
 
 # write a function that returns a 
 # boolean (True or False) for whether 
