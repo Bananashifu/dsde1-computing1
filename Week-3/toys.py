@@ -15,7 +15,7 @@ def inc(a):
 # write a function that adds 1
 # to the input and returns the result
 def inc_return(a):
-    return a + 1 # hint this is incomplete
+    return a + 1
 
 
 # write a function that adds
@@ -30,14 +30,14 @@ def sum(a, b):
 # sum() and then increments the sum
 # using inc_return
 def sum_inc(a, b):
-    return a + b
-    inc_return(a + b)
+    return a + b + 1
+
 
 # write a function that returns a 
 # boolean (True or False) for whether 
 # the input number is even
 def is_even(a):
-    if a // 2 ==0:
+    if a // 2 == 0:
         return True
     else: 
         return False
