@@ -3,8 +3,8 @@ import math
 def period(L, g):
     try:
         return 2 * math.pi * math.sqrt(L/g)
-    except ZeroDivisionError or ValueError or TypeError:
-        print('Error: You are trying to divide by zero.')
+    except ValueError or TypeError or ZeroDivisionError:
+        print('Error: Invalid input.')
 
 print('Input a value for L')
 L = int(input())
