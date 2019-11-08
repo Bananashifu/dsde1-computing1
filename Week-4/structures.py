@@ -9,13 +9,13 @@ Simple functions performing operations on basic Python data structures.
 # write a function that returns a list containig the first and the last element
 # of "the_list". 
 def first_and_last(the_list):
-    return []
+    return [0, -1]
 
 
 # write a function that returns part of "the_list" between indices given by the
 # second and third parameter, respectively. The returned part should be in
 # reverse order than in the original "the_list". 
-# If "end" is greater then "beginning" or any og the indices is out of the
+# If "end" is greater then "beginning" or any of the indices is out of the
 # list, raise a "ValueError" exception. 
 def part_reverse(the_list, beginning, end):
     return # hint this is incomplete
