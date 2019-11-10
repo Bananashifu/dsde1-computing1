@@ -13,17 +13,16 @@ def maths(input_a, input_b, input_c):
 # This function returns True or False.
 def choices(question):
     'Returns True or False based on truthfulness of the question'
-    if question == True:
-        return True
+    return question
 
 def main():
-    # first function takes three numbers
+    '''First function takes three numbers,
+    second function takes a True or False'''
     answer = maths(3, 9, 2.3)
     print(answer)
 
-    # second function takes a True or False
-    newAnswer = choices(True)
-    print(newAnswer)
+    new_answer = choices(True)
+    print(new_answer)
 
 if __name__ == '__main__':
     main()
